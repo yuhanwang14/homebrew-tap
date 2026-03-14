@@ -1,18 +1,18 @@
 class ClaudeUsageTui < Formula
   desc "btop-style terminal UI for monitoring Claude.ai usage limits in real-time"
   homepage "https://github.com/yuhanwang14/claude-usage-tui"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/yuhanwang14/claude-usage-tui/releases/latest/download/claude-usage-tui-aarch64-apple-darwin.tar.gz"
-      sha256 "48bb53fa78989c8f5cd51a20eb13526a4a90c5ef87ab36c1f8df732e321a6903"
+      sha256 "91f9d65759c83cfe9ccf6364c2d7199d77facb931093eac8b526604d2ae560e0"
     end
 
     on_intel do
       url "https://github.com/yuhanwang14/claude-usage-tui/releases/latest/download/claude-usage-tui-x86_64-apple-darwin.tar.gz"
-      sha256 "6077ce3b6d556b4e63eb6ff0354f3195111ce53b730dab85a6f1e47e51d5cd51"
+      sha256 "1abaf991ab02dcb1188a8de90b99aad0921550c838a7a2e8a10dba5c0e607cc2"
     end
   end
 
