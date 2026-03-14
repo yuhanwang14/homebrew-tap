@@ -7,14 +7,12 @@ class ClaudeUsageTui < Formula
   on_macos do
     on_arm do
       url "https://github.com/yuhanwang14/claude-usage-tui/releases/latest/download/claude-usage-tui-aarch64-apple-darwin.tar.gz"
-      # sha256 will be filled after the first release is published
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "da4e77055b4ba2f0d99ba6828d3b9805b3cf8fd846218b2a17a5e4e2d8fc826b"
     end
 
     on_intel do
       url "https://github.com/yuhanwang14/claude-usage-tui/releases/latest/download/claude-usage-tui-x86_64-apple-darwin.tar.gz"
-      # sha256 will be filled after the first release is published
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "c5b4fd9d80842ed8d8304746d273c3ddd6c81453c7ee5eb4719604a1371cc51b"
     end
   end
 
